@@ -7,6 +7,7 @@ function Header(props) {
     const { currentTab, setCurrentTab } = props;
 
     return(
+        <div>
         <section>
             <div>
                 <h1>Kenan McKenzie</h1>
@@ -18,6 +19,21 @@ function Header(props) {
             ></Navigation>
             </div>
         </section>
+        <section className='profilePic'>
+            <div className='profileImg'>
+                {/*<img
+                src={coverImage}
+                className="my-2"
+                style={{ width: "100%" }}
+                />*/}
+
+                <h2>Welcome</h2>
+                <p>
+                    Welcome to my React portfolio. Take a look around!
+                </p>
+            </div>
+        </section>
+        </div>
     )
 }
 

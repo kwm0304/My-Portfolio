@@ -10,7 +10,12 @@ h1 {
   color: #D62828;
   
 }
-
+root {
+  background-color: #003049;
+}
+section {
+  background-color: #003049;
+}
 p {
   color: #F77F00
 }
