@@ -27,7 +27,7 @@ function Header(props) {
                 style={{ width: "100%" }}
                 />*/}
 
-                <h2>Welcome</h2>
+                <h2 className='welcome'>Welcome</h2>
                 <p>
                     Welcome to my React portfolio. 
                     Take a look around!
