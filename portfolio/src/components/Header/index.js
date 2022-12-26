@@ -9,15 +9,15 @@ function Header(props) {
     return(
         <div>
         <section>
-            <div>
+            <header className='flex-row px-1'>
+                <div>
                 <h1>Kenan McKenzie</h1>
             </div>
-            <div>
                 <Navigation
                 currentTab={currentTab}
                 setCurrentTab={setCurrentTab}
             ></Navigation>
-            </div>
+            </header>
         </section>
         <section className='profilePic'>
             <div className='profileImg'>
@@ -29,7 +29,8 @@ function Header(props) {
 
                 <h2>Welcome</h2>
                 <p>
-                    Welcome to my React portfolio. Take a look around!
+                    Welcome to my React portfolio. 
+                    Take a look around!
                 </p>
             </div>
         </section>

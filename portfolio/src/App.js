@@ -7,6 +7,7 @@ import Portfolio from "../src/components/pages/Project";
 import Contact from "../src/components/pages/Contact";
 import Resume from "../src/components/pages/Resume";
 
+
 function App() {
 	const [currentTab, setCurrentTab] = useState("about");
 
@@ -22,22 +23,20 @@ function App() {
 			case "resume":
 				return <Resume />;
 			default:
-				return null;
+				return <About />;
 		}
 	};
 
 	return (
-		<div>
+		<>
 			<div className="mobile-header">
 				<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
 			</div>
 			<div>
 				<main>{renderTab()}</main>
-			</div>
-			<div>
 				<Footer></Footer>
 			</div>
-		</div>
+			</>
 	);
 }
 

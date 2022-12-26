@@ -1,3 +1,188 @@
 .logos {
   align-content: center;
 }
+
+* {
+  margin: 555;
+  padding: 555;
+  box-sizing: border-box;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+body {
+  color: #003049;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'Open Sans', sans-serif;
+  ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: #D5F2EA;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url('../src/assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #0E5259;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+  text-decoration: none;
+  color: #0E5259;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: normal;
+  font-size: 1.60vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+color: #a6d5cb;
+}
+
+header nav ul li a:hover {
+  background: #084045;
+  color: #D5F2EA;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.profilePic {
+background-image: url('./assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-start;
+background-attachment: fixed;
+background-position: 80%;
+}
+
+.profileImg {
+  width: 35%;
+  text-align: center;
+  margin: 13.5%;
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+
+body {
+  background-color: #003049;
+}
+
+h1 {
+  color: #D62828;
+  
+}
+root {
+  background-color: #003049;
+}
+section {
+  background-color: #003049;
+}
+p {
+  color: #a6d5cb
+}
+
+h2 {
+  color: #084045;
+  font-size: 35px;
+}
+
+h3 {
+  color: #FCBF49;
+}
+
+
+.main-body {
+  background-color: #003049;
+}
+
+.cards {
+  background-color: #003049;
+}
+
+.logos {
+  align-items: center;
+  cursor:pointer;
+  font-size: 40;
+  display: inline-block;
+  margin-right: 30px;
+}
+main {
+  background-color: #F77F00;
+}
+
+footer {
+  position: sticky;
+  background-image: url('./assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  color: #a6d5cb;
+  display: flex;
+  
+  
+}
+
+.footertext {
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+  margin-left: 30px;
+}

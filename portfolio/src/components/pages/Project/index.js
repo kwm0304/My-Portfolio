@@ -64,7 +64,7 @@ function Project() {
     </div>
     <div className="card-flap flap1">
       <div className="card-description">
-        This was made using moment.js and jquery.
+        Made using moment.js and jquery.
       </div>
       <div className="card-flap flap2">
         <div className="card-actions">
